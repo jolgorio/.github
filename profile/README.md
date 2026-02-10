@@ -1,7 +1,5 @@
-## Hi there 👋
+## 👋 STACK TECNOLÓGICO
 
-
-2. Stack Tecnológico Nativo
 🤖 Android (Repo: jolgorio-android)
 Lenguaje: Kotlin.
 
@@ -18,19 +16,19 @@ Red: Retrofit o Ktor Client.
 Imágenes: Coil.
 
 🍏 iOS (Repo: jolgorio-ios)
-Lenguaje: Swift 5+.
+Lenguaje: Swift 6+.
 
 UI Framework: SwiftUI.
 
-Arquitectura: MVVM.
+Arquitectura: TCA (The Composable Architecture).
 
 Concurrencia: Swift Concurrency (Async/Await).
 
-Inyección de Dependencias: Factory o nativa.
+Inyección de Dependencias: Swift-Dependencies.
 
-Red: Alamofire o URLSession nativo.
+Red: URLSession.
 
-Imágenes: Kingfisher o AsyncImage nativa.
+Imágenes: Kingfisher/AsyncImage.
 
 🔥 Backend & Servicios (Común)
 Auth & Base de datos: Firebase (Auth, Firestore, Storage) o Supabase. Crucial definir la estructura de datos JSON antes de empezar para que iOS y Android sean compatibles.
@@ -71,7 +69,8 @@ Firma la app con las claves criptográficas (guardadas en GitHub Secrets).
 
 Android: Sube a Google Play Console (Track: Internal Testing).
 
-iOS: Sube a TestFlight (usando Fastlane, herramienta clave aquí).
+iOS: Sube a TestFlight (usando Fastlane).
+
 <!--
 
 **Here are some ideas to get you started:**
